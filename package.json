@@ -1,6 +1,6 @@
 {
   "private": true,
-  "author": "chuxin <15115359055@139.com>",
+  "author": "chuxin",
   "scripts": {
     "dev": "umi dev",
     "build": "umi build",
