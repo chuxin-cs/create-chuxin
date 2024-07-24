@@ -8,6 +8,9 @@ importers:
 
   .:
     devDependencies:
+      '@types/cross-spawn':
+        specifier: ^6.0.6
+        version: 6.0.6
       '@types/minimist':
         specifier: ^1.2.5
         version: 1.2.5
@@ -515,6 +518,9 @@ packages:
   '@trysound/sax@0.2.0':
     resolution: {integrity: sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==}
     engines: {node: '>=10.13.0'}
+
+  '@types/cross-spawn@6.0.6':
+    resolution: {integrity: sha512-fXRhhUkG4H3TQk5dBhQ7m/JDdSNHKwR2BBia62lhwEIq9xGiQKLxd6LymNhn47SjXhsUEPmxi+PKw2OkW4LLjA==}
 
   '@types/estree@1.0.5':
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
@@ -1704,6 +1710,10 @@ snapshots:
   '@sindresorhus/merge-streams@4.0.0': {}
 
   '@trysound/sax@0.2.0': {}
+
+  '@types/cross-spawn@6.0.6':
+    dependencies:
+      '@types/node': 20.14.12
 
   '@types/estree@1.0.5': {}
 

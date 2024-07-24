@@ -29,6 +29,8 @@ const argv = minimist<{
 });
 const cwd = process.cwd();
 
+console.log(cwd, "==");
+
 // prettier-ignore
 const helpMessage = `\
 Usage: create-vite [OPTION]... [DIRECTORY]
