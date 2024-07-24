@@ -1,0 +1,51 @@
+{
+  "name": "create-chuxin",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "chuxin create cli",
+  "bin": {
+    "create-chuxin": "index.js"
+  },
+  "files": [
+    "index.js",
+    "template-*",
+    "dist"
+  ],
+  "scripts": {
+    "dev": "unbuild --stub",
+    "build": "unbuild",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": {
+    "node": "^18.0.0 || >=20.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuxin-cs/create-chuxin.git"
+  },
+  "keywords": [
+    "create-chuxin",
+    "chuxin-cli",
+    "chuxin"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chuxin-cs/create-chuxin/issues"
+  },
+  "homepage": "https://github.com/chuxin-cs/create-chuxin#readme",
+  "devDependencies": {
+    "@types/minimist": "^1.2.5",
+    "@types/node": "^20.14.12",
+    "@types/prompts": "^2.4.9",
+    "cross-spawn": "^7.0.3",
+    "execa": "^9.3.0",
+    "fs-extra": "^11.2.0",
+    "kolorist": "^1.8.0",
+    "minimist": "^1.2.8",
+    "prompts": "^2.4.2",
+    "unbuild": "^2.0.0",
+    "votest": "^0.0.8"
+  }
+}
