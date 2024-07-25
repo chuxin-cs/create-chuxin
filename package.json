@@ -14,7 +14,7 @@
     "dist"
   ],
   "scripts": {
-    "serve": "node ./dist/index.mjs",
+    "serve": "npm run dev && npm link",
     "dev": "unbuild --stub",
     "build": "unbuild",
     "typecheck": "tsc --noEmit",
